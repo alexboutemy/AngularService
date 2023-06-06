@@ -1,0 +1,5 @@
+<ul>
+    <li *ngFor="let cocktail of cocktails">
+      <h3>{{cocktail.name}}</h3>
+      <p> {{cocktail.price}} euros </p>
+      <img src={{cocktail.image}} alt={{cocktail.name}} width="75">
